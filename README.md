@@ -5,6 +5,22 @@
 本工具提供web界面，人机交互良好。  
 沸点工作室web开发组提供技术支持。
 
+## 安装&运行
+``` bash
+git clone git@github.com:xbx0119/wechatBot.git
+cd wechatBot
+
+npm install
+
+# 开发模式
+npm run dev
+
+# 生产模式
+npm run release
+
+```
+
+
 ## 文件说明
 1. bot/
     bot.js 读取微信消息，转发

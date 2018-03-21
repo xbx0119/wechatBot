@@ -10,13 +10,26 @@
 git clone git@github.com:xbx0119/wechatBot.git
 cd wechatBot
 
+# 后端
 npm install
 
 # 开发模式
 npm run dev
-
 # 生产模式
 npm run release
+
+
+# 前端
+cd public
+npm install
+
+# 初始化
+npm run init
+
+# 开发模式
+npm run dev
+# 生产模式
+npm run build
 
 ```
 
@@ -27,6 +40,8 @@ npm run release
 2. lib/
     sendMsg.js 
     parseRegx.js 解析字符串
+3. public/
+    客户端代码
 
 
 ## 定义规则
